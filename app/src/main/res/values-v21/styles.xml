@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="android:colorAccent">@color/color_accent</item>
+        <item name="actionBarStyle">@style/actionBar</item>
+        <item name="android:navigationBarColor">@color/color_primary_dark</item>
+        <item name="android:homeAsUpIndicator">@mipmap/ic_arrow_back_white_24dp</item>
+        <item name="android:actionOverflowButtonStyle">@style/ActionButtonOverflow</item>
+        <item name="android:colorBackground">@color/background_material_dark</item>
+        <item name="android:colorForeground">@color/bright_foreground_material_dark</item>
+        <item name="android:textColorHint">@color/bright_foreground_material_dark</item>
+        <item name="android:popupMenuStyle">@style/MyPopupMenu</item>
+        <item name="android:itemTextAppearance">@style/TextAppearance</item>
+    </style>
+
+    <style name="MyPopupMenu"
+        parent="@android:style/Widget.Holo.ListPopupWindow">
+        <item name="android:popupBackground">@color/background_material_dark</item>
+    </style>
+    <!-- Popup Menu Text Color styles -->
+    <style name="TextAppearance">
+        <item name="android:textColor">@color/bright_foreground_material_dark</item>
+    </style>
+
+    <style name="ActionBarTheme" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="android:colorAccent">@color/color_accent</item>
+        <item name="actionBarStyle">@style/actionBar</item>
+        <item name="android:navigationBarColor">@color/color_primary_dark</item>
+        <!--<item name="android:colorBackground">@color/background_material_light</item>-->
+        <!--<item name="android:colorForeground">@color/foreground_material_light</item>
+        <item name="android:windowBackground">@color/colorBackground</item>-->
+    </style>
+
+</resources>

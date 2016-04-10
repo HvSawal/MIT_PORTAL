@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="attendance_threshhold">75</integer>
+    <integer name="back_press_time">2000</integer>
+
+</resources>

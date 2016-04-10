@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#009688</color>
+    <color name="color_primary_dark">#00796b</color>
+    <color name="color_primary_secondary">#4db6ac</color>
+    <color name="color_accent">@color/accent_material_light</color>
+
+    <color name="button_normal_background">@color/color_primary</color>
+    <color name="button_normal_text">#ffffff</color>
+
+    <color name="text_primary">#212121</color>
+    <color name="text_primary_dark">#727272</color>
+    <color name="text_accent">#B6B6B6</color>
+
+    <color name="attendance_shortage">#FF5252</color>
+    <color name="grade_fail_or_incomplete">@color/color_primary_dark</color>
+
+    <color name="action_bar_title">#ffffff</color>
+
+    <color name="disclaimer">@color/text_primary_dark</color>
+
+    <color name="divider_color">@color/color_primary</color>
+
+    <color name="materialize_css_red">#f44336</color>
+    <color name="materialize_css_blue">#2196f3</color>
+    <color name="materialize_css_green">#4caf50</color>
+    <color name="materialize_css_yellow">#ffeb3b</color>
+
+    <!--<color name="materialize_css_red">@color/color_primary</color>
+    <color name="materialize_css_blue">@color/color_primary_dark</color>
+    <color name="materialize_css_green">@color/color_primary</color>
+    <color name="materialize_css_yellow">@color/color_primary_dark</color>-->
+    <color name="accent_material_light">#ff9800</color>
+    <color name="background_material_light">#000000</color>
+    <color name="background_material_dark">#303030</color>
+
+    <!--<color name="foreground_material_light">#ffffff</color>
+    <color name="colorBackground">#fafafa</color>-->
+
+</resources>

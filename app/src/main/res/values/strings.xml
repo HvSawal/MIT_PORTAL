@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">MIT Portal</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="preferences">MIT_WEB_SYS_SCRAPER_SHARED_PREFS</string>
+    <string name="preference_reg_no">REGISTRATION_NUMBER</string>
+    <string name="preference_dob">DOB</string>
+    <string name="preference_profile_summary">PROFILE_SUMMARY</string>
+    <string name="preference_id_numbers">ID_NUMBERS</string>
+    <string name="preference_contact_info">CONTACT_INFO</string>
+    <string name="preference_academic_status">ACADEMIC_STATUS</string>
+
+    <string name="hint_reg_no">Registration number</string>
+    <string name="hint_dob">Date of Birth [yyyy-mm-dd]</string>
+
+    <string name="button_login">Log In</string>
+    <string name="button_logout">Log Out</string>
+
+    <string name="text_reg_no">Registration Number</string>
+    <string name="text_dob">Date of Birth</string>
+    <string name="text_name">Name</string>
+    <string name="text_stream">Stream</string>
+    <string name="text_semester">Semester</string>
+    <string name="text_section">Section</string>
+    <string name="text_joining_year">Year of Joining</string>
+    <string name="text_nationality">Nationality</string>
+    <string name="text_gender">Gender</string>
+    <string name="text_roll_number">Roll Number</string>
+    <string name="text_admission_number">Admission Number</string>
+    <string name="text_permanent_address">Permanent Address</string>
+    <string name="text_email_id">Email ID</string>
+    <string name="text_home_phone">Home Phone</string>
+    <string name="text_mobile_phone">Mobile Phone</string>
+    <string name="text_status">Status</string>
+    <string name="text_code">Course Code</string>
+    <string name="text_option">Option</string>
+    <string name="text_credits">Credits</string>
+    <string name="text_only_exam">Only Exam</string>
+    <string name="text_classes_taken">Classes Taken</string>
+    <string name="text_classes_attended">Classes Attended</string>
+    <string name="text_attendance_percentage">Attendance Percentage</string>
+    <string name="text_classes_absent">Classes Absent</string>
+    <string name="text_attendance_updated">Attendace Updated</string>
+    <string name="text_ia1">Internal Assessment 1</string>
+    <string name="text_ia2">Internal Assessment 2</string>
+    <string name="text_ia3">Internal Assessment 3</string>
+    <string name="text_session">Session</string>
+    <string name="text_credits_earned">Credits Earned</string>
+    <string name="text_gpa">GPA</string>
+    <string name="text_grade">Grade</string>
+    <string name="text_session_cleared">Session Cleared</string>
+    <string name="text_no_archived_semester">You have no archived semesters!</string>
+    <string name="text_swipe_to_refresh">Swipe down to refresh.</string>
+    <string name="text_no_download_for_archived_sem">This is an archived semester. There is nothing to update.</string>
+    <string name="text_about">This application basically scrapes data from the official MIT Manipal Web Portal (http://websismit.manipal.edu) and displays it in a neat and ordered manner. It also persists the scraped data locally for easy viewing in the future. You can also view archived semesters and easily calculate your CGPA as well.</string>
+    <string name="text_disclaimer">Your registration number, date of birth and any other data associated with this application will only be stored locally on your device and no where else. This application persists data locally, that is, in your device\'s local memory. The data that is scraped from the MIT Manipal Web Portal is directly stored in your phone. Neither this application nor the developer is responsible or can be held responsible for any sort of data theft or misuse caused through direct or indirect exploitation (or misuse) of this application.</string>
+    <string name="text_back_pressed">Please click BACK again to exit.</string>
+
+    <string name="intent_reg_no">REGISTRATION_NUMBER</string>
+    <string name="intent_dob">DATE_OF_BIRTH</string>
+    <string name="intent_sem_name">DATE_OF_BIRTH</string>
+
+    <string name="title_login">Log In</string>
+    <string name="title_home">Home</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_academics">Academics</string>
+    <string name="title_profile_summary">Profile Summary</string>
+    <string name="title_contact_info">Contact Info</string>
+    <string name="title_id_numbers">ID Numbers</string>
+    <string name="title_semester">Semester</string>
+    <string name="title_gpa">GPA</string>
+    <string name="title_cgpa">CGPA</string>
+    <string name="title_credits">Credits</string>
+    <string name="title_credits_earned">Credits Earned</string>
+    <string name="title_session">Session</string>
+    <string name="title_activity_login_profile">@string/title_profile_summary</string>
+    <string name="title_activity_archives">Archived Semesters</string>
+    <string name="title_activity_archived">Archived Semester</string>
+    <string name="title_about">ABOUT</string>
+    <string name="title_disclaimer">DISCLAIMER</string>
+
+    <string name="error_no_reg_no">Enter your registration number.</string>
+    <string name="error_no_dob">Enter your date of birth.</string>
+    <string name="error_no_internet">Please check your internet connection.</string>
+    <string name="error_invalid_details">Invalid credentials!</string>
+    <string name="error_websys_down">Uh oh! It looks like you have an unreliable internet connection or web sys is down right now.</string>
+    <string name="error_unknown">Oops! It looks like something went wrong. Try checking your internet connection.</string>
+    <string name="error_unknown_2">Oops! It looks like something went wrong.</string>
+    <string name="error_invalid_cgpa">Unable to calculate CGPA! Try downloading all your archived semesters by swiping down.</string>
+
+    <string name="url_base">http://websismit.manipal.edu</string>
+    <string name="url_home">http://websismit.manipal.edu/websis/control/createAnonSession</string>
+    <string name="url_academics">http://websismit.manipal.edu/websis/control/StudentAcademicProfile</string>
+    <!--string name="url_academics">http://websismit.manipal.edu/websis/control/StudentAcademicProfile?admissionId=21144&amp;productCategoryId=0953-TERM-1&amp;groupCategoryId=09CC-TERM-1</string-->
+
+    <string name="id_name">cc_ProfileTitle_name</string>
+    <string name="id_stream">ProfileTitle_programCategoryId_title</string>
+    <string name="id_semester">ProfileTitle_productCategoryId_title</string>
+    <string name="id_section">cc_ProfileTitle_sectionCode</string>
+    <string name="id_joining_year">ProfileSummary_customTimePeriodId_title</string>
+    <string name="id_gender">ProfileSummary_gender_title</string>
+    <string name="id_status">cc_ProfileTitle_statusDescription</string>
+    <string name="id_birth_date">ProfileSummary_birthDate_title</string>
+    <string name="id_nationality">ProfileSummary_nationalityId_title</string>
+    <string name="id_reg_no">cc_ProfileTitle_idValue</string>
+    <string name="id_profile_summary">profile-summary</string>
+    <string name="id_id_numbers">listPartyIdentification_table</string>
+    <string name="id_latest_enrollment">LatestEnrollment_table</string>
+    <string name="id_login_box">wloginbox</string>
+    <string name="id_subject_info">ListTermEnrollment_table</string>
+    <string name="id_attendance_info">ListAttendanceSummary_table</string>
+    <string name="id_internal_assesment">ListAssessmentScores_table</string>
+    <string name="id_archived_sem_metadata">ProgramAdmissionItemDetail</string>
+    <string name="id_archived_sem_info">TermGradeBookSummary_table</string>
+    <string name="id_archived_sem_link">ProgramAdmissionItemSummary_table</string>
+
+    <string name="class_title_bar">screenlet-title-bar</string>
+
+    <string name="grade_fail">F</string>
+    <string name="grade_incomplete">I</string>
+
+    <string name="action_about">About</string>
+    <string name="action_disclaimer">Disclaimer</string>
+    <string name="action_exit">Exit</string>
+
+</resources>
